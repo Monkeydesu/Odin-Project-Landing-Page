@@ -100,3 +100,33 @@ header{
     padding: 0;
     align-self: flex-end;
 }
+
+.blue-box{
+    color: #F9FAF8;
+    background-color: #3382f6;
+    height: 100px;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue-box-text h5,
+.blue-box-text p{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.sign-up-panel{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    font-weight: 700;
+}
