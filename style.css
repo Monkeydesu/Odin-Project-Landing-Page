@@ -1,8 +1,12 @@
+/*Universal*/
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
 }
+
+/*Header panel*/
 
 header{
     color: #F9FAF8;
@@ -28,6 +32,8 @@ header{
     gap: 16px
 }
 
+/*Top panel with coding image*/
+
 .top-panel{
     color: #F9FAF8;
     background-color: #1F2937;
@@ -43,6 +49,8 @@ header{
     height: 280px;
     width: 450px;
 }
+
+/*Card panel*/
 
 .emoji{
     height: 100px;
@@ -73,6 +81,8 @@ header{
     align-items: center;
 }
 
+/*Quote panel*/
+
 .quote-panel{
     background-color: #E5E7EB;
     height: 200px;
@@ -100,6 +110,8 @@ header{
     padding: 0;
     align-self: flex-end;
 }
+
+/*Call to action panel*/
 
 .blue-box{
     color: #F9FAF8;
@@ -130,6 +142,8 @@ header{
 h5{
     font-weight: 700;
 }
+
+/*Footer*/
 
 footer{
     color: #F9FAF8;
