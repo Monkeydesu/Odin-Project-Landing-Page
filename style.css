@@ -2,8 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    /* padding-left: 250px;
-    padding-right: 250px; */
 }
 
 header{
@@ -49,4 +47,28 @@ header{
 .emoji{
     height: 100px;
     width: 100px;
+    margin: auto;
+}
+
+.cards{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    text-align: center;
+    width: 100%;
+}
+
+.card-panel{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
